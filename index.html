@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<meta name="author" content="Jason You">
 	<meta name="description" content="Clothing Website">
-	<title>Shop Here</title>
+	<title>Summerwear</title>
+	<link rel="shortcut icon" href="img/favicon.png">
 	<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 	<script src="https://use.fontawesome.com/2fc35af755.js"></script>
 	<link rel="stylesheet" href="css/main.css">
@@ -13,10 +14,10 @@
 	<nav>
 		<a href="index.html"><img src="img/clothing.png"></a>
 		<ul>
-			<li><a href="">HOME</a></li>
-			<li><a href="">ABOUT US</a></li>
-			<li><a href="">SALE</a></li>
-			<li><a href="">CONTACT US</a></li>
+			<li><a href="#">HOME</a></li>
+			<li><a href="#aboutId">ABOUT US</a></li>
+			<li><a href="#serviceId">SALE</a></li>
+			<li><a href="#contactId">CONTACT US</a></li>
 		</ul>
 	</nav>
 	<header>
@@ -26,7 +27,8 @@
 		<br>
 		<a href="">KNOW MORE</a>
 	</header>
-
+	<!-- About Us -->
+	<span class="anchor" id="aboutId"></span>
 	<section id="about">
 		<h1>ABOUT US</h1>
 		<div><img src="img/sectionbreak.png"></div>
@@ -54,10 +56,13 @@
 			</div>
 		</div>	
 	</section>
-
+	<!-- Sale Section -->
 	<section id="service">	
-		<button type="button">CLICK HERE</button>
+			<span class="anchor" id="serviceId"></span>
+			<button type="button">CLICK HERE</button>
 	</section>
+	<!-- Contact Section -->
+	<span class="anchor" id="contactId"></span>
 	<section id="contact">
 		<h1>Contact</h1>
 		<img src="img/sectionbreak.png">
@@ -81,5 +86,16 @@
 	<footer id="sitefooter">
 		<p>&copy; SUMMERWEAR</p>
 	</footer>
+	<!-- Jquery Script -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>	
+	<!-- Jquery script for smooth scrolling on a link -->
+	<script>
+		$('a[href*="#"]').click(function(event){
+    		$('html, body').animate({
+        	scrollTop: $( $.attr(this, 'href') ).offset().top
+    		}, 400);
+		   	event.preventDefault();
+		});
+	</script>
 </body>
 </html>

@@ -28,6 +28,7 @@ nav ul li {
 nav ul li a{
 	text-decoration: none;
 	color: #FEFEFE;
+	
 	transition: all 0.3s ease-in-out;
 }
 nav li a:hover,
@@ -41,7 +42,7 @@ header {
 	background-repeat: none;
 	background-size: cover;
 	text-align: center;
-	color: #2369a5;
+	color: black;
 }
 header h1 {
 	font-size: 46px;
@@ -67,6 +68,12 @@ header a:hover {
 	color:#fff;
 	cursor:pointer;
 }
+/*anchor to makesure the Navbar doesn't overlap the sections*/
+.anchor {
+	display:block;
+	height:70px;
+	margin-top: -70px;
+	visibility: hidden;
 }
 #about {
 	height: 300px;
