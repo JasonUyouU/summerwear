@@ -1,3 +1,252 @@
+@media (max-width: 1465px) {
+	div.aboutBox h2 {
+		font-size: 14px;
+	}
+	div.aboutBox p{
+		font-size: 10px;
+
+	}
+	section#service button {
+		margin: 30% 26% 0 28%;
+	}
+}
+@media (max-width: 1380px) {
+	section#service button {
+		margin: 32% 26% 0 27%;
+	}
+}
+@media (max-width: 1265px) {
+	section#service button {
+		margin: 36% 25% 0 27%;
+	}	
+}
+@media (max-width: 1122px) {
+	header {
+		height: 700px !important;
+		background-attachment: scroll !important;
+	}
+	div.aboutBox h2 {
+		font-size: 12px;
+	}
+	section#service button {
+		margin: 42% 22% 0 27%;
+	}
+}
+@media (max-width: 965px) {
+	div.aboutBox h2 {
+		font-size: 10px;
+	}
+	div.aboutBox p {
+		display: none;
+	}
+	section#service {
+		height: 500px;
+	}
+	section#service button {
+		margin-top: 36%;
+	}
+	section#service button {
+		margin: 340px 180px 0 180px;
+	}
+	div.contactForm label {
+		font-size: 14px !important;
+	}
+	div.contactForm input,
+	div.contactForm textarea {
+		font-size: 16px !important;
+	}
+}
+@media (max-width: 890px) {
+	section#service button {
+		margin: 340px 160px 0 160px;
+		padding: 7px 25px;
+	}
+}
+@media (max-width: 810px) {
+	header {
+		height: 600px !important;
+	}
+	div.aboutBox h2 {
+		font-size: 8px;
+	}
+	section#service {
+		height: 400px !important;
+	}
+	section#service button {
+		margin: 280px 140px 0 140px;
+	}
+	div.contactForm label {
+		font-size: 12px !important;
+	}
+	div.contactForm input,
+	div.contactForm textarea {
+		font-size: 12px !important;
+	}
+	div.contactForm .lastBr {
+		display: none;
+	}
+}
+@media (max-width: 740px) {
+	section#service button {
+		padding: 5px 15px;
+		font-size: 12px;
+	}
+}
+@media (max-width: 650px) {
+	header h1 {
+		font-size: 38px !important;
+		padding-top: 25% !important;
+	}
+	header p {
+		font-size: 16px !important;
+	}
+	section#about h1 {
+		font-size: 38px !important;
+	}
+	section#about p {
+		font-size: 12px !important;
+	}
+	section#about {
+		height: 250px !important;
+	}
+	section#service {
+		height: 350px !important;
+	}
+	section#service button {
+		margin: 230px 130px 0 130px;
+	}
+	section#contact h1 {
+		font-size: 38px !important;
+	}
+	section#contact p {
+		font-size: 16px !important;
+	}
+	div.aboutBox h2 {
+		display: none;
+	}
+	div.contactForm {
+		padding: 30px 20px;
+	}
+	div.contactForm label {
+		font-size: 9px !important;
+	}
+	div.contactForm input,
+	div.contactForm textarea {
+		font-size: 9px !important;
+	}
+	div.contactForm .secondBr {
+		display: none;
+	}
+	div.contactForm button {
+		margin-top: 20px;
+		padding: 5px 15px;
+		font-size: 9px !important;
+	}
+}
+@media (max-width: 620px) {
+	section#service button {
+		margin: 230px 100px 0 100px;
+	}
+}
+@media (max-width: 550px) {
+	nav img {
+		display: none;
+	}
+	nav ul {
+		float: none !important;
+	}
+	nav {
+		text-align: center;
+	}
+	header {
+		height: 550px !important;
+	}
+	section#service button {
+		padding: 5px 10px;
+		font-size: 10px;
+	}
+	div.contactForm {
+		padding-top: 15px;
+	}
+	div.contactForm label {
+		font-size: 7px !important;
+	}
+	div.contactForm input,
+	div.contactForm textarea {
+		font-size: 7px !important;
+	}
+
+}
+@media (max-width: 480px) {
+	nav {
+		font-size: 14px !important;
+	}
+	nav li {
+		padding: 5px 10px !important;
+	}
+	header h1 {
+		font-size: 30px !important;
+		padding-top: 30% !important;
+	}
+	header p {
+		font-size: 12px !important;
+	}
+	section#about h1 {
+		font-size: 30px !important;
+	}
+	section#about p {
+		font-size: 12px !important;
+	}
+	section#service {
+		height: 300px !important;
+	}
+	section#service button {
+		margin: 200px 80px 0 80px;
+		font-size: 8px
+	}
+	section#contact h1 {
+		font-size: 30px !important;
+	}
+	section#contact p {
+		font-size: 12px !important;
+	}
+	header a {
+		padding: 7px 25px !important;
+	}
+
+}
+@media (max-width: 410px) {
+	nav {
+		font-size: 12px !important;
+	}
+	header {
+		height: 500px !important;
+	}
+	section#service {
+		height: 260px !important;
+	}
+	section#service button {
+		margin: 160px 60px 0 60px;
+		font-size: 7px;
+	}
+
+
+}
+@media (max-width: 330px) {
+	header {
+		height: 450px !important;
+	}
+	header h1 {
+		font-size: 26px !important;
+		padding-top: 35% !important;
+	}
+	section#service {
+		height: 210px !important
+	}
+	section#service button{
+		margin: 140px 60px 0 60px;
+	}
+}
 body {
 	font-family: 'Gloria Hallelujah', cursive;
 	margin: 0;
